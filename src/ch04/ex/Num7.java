@@ -26,6 +26,7 @@ public class Num7 {
                 }
                 case "2": {
                     System.out.print("출금액>");
+
                     int withDraw = scanner.nextInt();
                     total -= withDraw;
                     scanner.nextLine();
